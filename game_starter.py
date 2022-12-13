@@ -1,4 +1,4 @@
-
+# Collaborate with TaeTae
 # -----------------------------------
 # Helper code
 # You don't need to understand this helper code,
@@ -104,13 +104,13 @@ def get_guessed_word(secret_word, letters_guessed):
   and return that string
   '''
   #Problem 2
-  word = ''
+  output_string = ''
   for letter in secret_word:
     if letter in letters_guessed:
-      word += letter
+      output_string += letter
     else:
-      word += '_'
-  return word
+      output_string += '_'
+  return output_string
     
 
     
