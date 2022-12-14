@@ -109,7 +109,7 @@ def get_guessed_word(secret_word, letters_guessed):
     if letter in letters_guessed:
       output_string += letter
     else:
-      output_string += '_'
+      output_string += '_ '
   return output_string
     
 
